@@ -19,9 +19,21 @@ Feature: DuckDuckGo Instant Answer API
       | panda    |
       | python   |
       | platypus |
+      # string alfanumérica
+      | pyth0n   |
+      # string numérica
+      | 12345    |
+      # string especial
+      |!@#$%^&*()_-+=~`[]{}\|;:'",./<>\?|
 
     Examples: Fruits
       | phrase     |
       | peach      |
       | pineapple  |
       | papaya     |
+    # string alfanumérica
+      | p4p4y4     |
+      # string numérica
+      | 12345      |
+      # string especial
+      |!@#$%^&*()_-+=~`[]{}\|;:'",./<>\?|
